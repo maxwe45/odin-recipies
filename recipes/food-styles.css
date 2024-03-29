@@ -1,0 +1,28 @@
+body {
+    background-color: beige;
+}
+
+.desc {
+    font-weight:600 ;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-decoration-color:cornflowerblue;
+}
+
+.titles {
+    text-decoration: underline;
+    text-decoration-thickness: 15%;
+}
+
+.ingredients {
+    display: block;
+    width:fit-content;
+    border: 5px solid bisque;
+    background-color: bisque;
+}
+
+.steps {
+    display: block;
+    width: fit-content;
+    background-color: bisque;
+}

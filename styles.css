@@ -1,0 +1,41 @@
+.hometitle {
+    text-align: center;
+    color: hsl(194, 31%, 60%);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.homelinks { 
+    font-size:32px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.food {
+    align-self: right;
+    height: 150px;
+    width: auto;
+}
+
+.homemessage {
+    background-color: bisque;
+    font-size: 24px;
+    text-align: center;
+    width: 500px;
+    height:auto;
+    display:block;
+    block-size: auto;
+    margin-block-end: auto;
+    margin-block-start:20%;
+    border:thick double hsl(194, 31%, 60%);
+
+}
+
+.homecontents {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+body {
+    background-color: beige;
+}
