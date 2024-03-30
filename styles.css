@@ -8,13 +8,27 @@
 .homelinks { 
     font-size:32px;
     font-family: 'Times New Roman', Times, serif;
-    
+    display:block;
+    margin:auto;
+    border: 5px solid hsl(194, 31%, 45%);
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-top:10px;
+    background-color: bisque;
+    border-top: 5px solid hsl(194, 31%, 60%);
+    border-bottom: 5px solid hsl(194, 31%, 60%)
 }
 
 .food {
     align-self: right;
     height: 150px;
     width: auto;
+    display:inline-block;
+    margin-left: 100px;
+  
+    margin-right:5px;
+    border: 5px solid black;
+    
 }
 
 .homemessage {
@@ -27,7 +41,11 @@
     block-size: auto;
     margin-block-end: auto;
     margin-block-start:20%;
-    border:thick double hsl(194, 31%, 60%);
+    border: 5px solid hsl(194, 31%, 45%);
+    border-top: 5px solid hsl(194, 31%, 60%);
+    border-bottom: 5px solid hsl(194, 31%, 60%);
+    padding: 5px;
+   
 
 }
 
@@ -38,4 +56,14 @@
 
 body {
     background-color: beige;
+}
+
+.links {
+    background-color: lightblue;
+    color:slategrey;
+    border: 5px solid hsl(20, 51%, 60%);
+    border-top: 5px solid hsl(20, 50%, 50%);  
+    border-bottom: 5px solid hsl(20, 50%, 50%);  
+    margin-top: 5px;
+    padding: 3px;
 }
